@@ -124,7 +124,12 @@ app.json est le fichier de configuration de l'app. Il contient les informations 
 ---
 
 package.json est le fichier qui contient les dépendances de l'app. C'est le fichier qui permet d'installer les modules et les dépendances.
-(mis à jour avec la commande npm install) 
+(mis à jour avec la commande npm install)
+
+- babel.config.js
+---
+
+babel.config.js est le fichier qui contient les configurations de babel. C'est le fichier qui permet de compiler le code react-native en code natif. (pas besoin de le toucher pour l'instant)
 
 ## Habituel
 
@@ -140,7 +145,11 @@ assets est le dossier qui contient les images, les polices, etc. C'est le dossie
 
 components est le dossier qui contient les composants de l'app. C'est le dossier qui contient les briques de l'app.
 
+- readme.md
 
+---
+
+C'est le fichier qui contient les informations sur l'app (écris en markdown.)
 
 
 # Sites utiles:
