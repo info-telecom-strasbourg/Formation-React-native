@@ -2,8 +2,6 @@
 
 # 1. Contexte
 
-
-
 ## Presentation de React Native
 
 ---
@@ -23,19 +21,19 @@
 Le developpement en HTML+CSS+JS est appelé developpement front-end. C'est le developpement de l'interface utilisateur. C'est ce que l'on voit sur le navigateur.
 Le back-end est le developpement du serveur. C'est ce qui permet de stocker les données, de les récupérer, de les traiter, etc.
 
-
 ### 2. HTML, CSS, JS
 
 Le developpement web est originallement réalisé en utilisant les "langages" [HTML](https://developer.mozilla.org/fr/docs/Web/HTML) et [CSS](https://developer.mozilla.org/fr/docs/Web/CSS). Cela permet de créer des sites purement visuel.
 pour permettre l'intéractivté on utilise : [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript). C'est un langage de programmation qui permet de créer des sites web interactifs. Il est utilisé pour créer des sites web, des applications web, des serveurs, des jeux, des robots, etc.
 
-###  3. un Framework : React
+### 3. un Framework : React
 
 Pour coder des applications Web un peu ambitieuse on utilise des frameworks. C'est un ensemble de librairies qui permettent de faciliter le developpement. On peut citer par exemple [React](https://fr.reactjs.org/), [Vue](https://vuejs.org/), [Angular](https://angular.io/), etc.
 Celle qui nous intéresse est React. Car React Native est basé sur React. (a permis au developpeur de facebook de pas avoir à tout recoder ni à apprendre un nouveau langage)
 
 
 ## React Native en théorie
+
 ---
 
 En codant une application en React-native nous serons donc **obligé** d'utiliser du React et du Javascript
@@ -55,6 +53,7 @@ React-native demande d'avoir un environnement de developpement spécifique. Il f
 
 
 ##  1. Installer Node.js
+
 ---
 
 
@@ -111,7 +110,8 @@ demo-app
 └── README.md
 ```
 
-## Obligatoire:
+## Obligatoire 
+
 - App.js
 ---
 App.js est le fichier principal. C'est le fichier qui est appelé au démarrage de l'app. Il contient les composants principaux de l'app.
@@ -120,16 +120,31 @@ App.js est le fichier principal. C'est le fichier qui est appelé au démarrage 
 
 app.json est le fichier de configuration de l'app. Il contient les informations sur l'app (nom, icone, etc)
 
+- package.json
+---
+
+package.json est le fichier qui contient les dépendances de l'app. C'est le fichier qui permet d'installer les modules et les dépendances.
+(mis à jour avec la commande npm install) 
+
+## Habituel
+
 - assets
+
 ---
 
 assets est le dossier qui contient les images, les polices, etc. C'est le dossier qui contient les ressources de l'app.
 
 - components
+  
+---
 
-components est le dossier qui contient les composants de l'app. C'est le dossier qui contient les briques de l'app. 
+components est le dossier qui contient les composants de l'app. C'est le dossier qui contient les briques de l'app.
 
-Sites utiles:
+
+
+
+# Sites utiles:
+
 - [React Native](https://reactnative.dev/)
 - [Snack](https://snack.expo.dev/)
 - [Expo doc](https://docs.expo.dev/)
