@@ -83,6 +83,13 @@ Voilà vous avez votre premier app en React-native qui s'affiche sur votre smart
 
 3. React-native en pratique !
 
+aller dans le dossier demo-app et lancer l'app avec les commandes suivantes:
+
+```
+npm install
+npx start
+```
+
 Sites utiles:
 - [React Native](https://reactnative.dev/)
 - [Snack](https://snack.expo.dev/)
